@@ -1,0 +1,3 @@
+[submodule "ros-keyboard"]
+	path = ros-keyboard
+	url = git@github.com:autonomousrobotshq/ros-keyboard.git

@@ -21,8 +21,8 @@ find_package(catkin REQUIRED COMPONENTS
 # Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   Gps_msg.msg
-   Imu_msg.msg
+   GPS_msg.msg
+   IMU_msg.msg
    Driver_msg.msg
    Health_msg.msg
  )
@@ -58,7 +58,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES llc-messages
+#  LIBRARIES SpineMSG
   CATKIN_DEPENDS std_msgs message_runtime
 )
 

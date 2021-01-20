@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>llc_messages</name>
+  <name>spine_msg</name>
   <version>0.0.0</version>
-  <description>The llc_messages package</description>
+  <description>The spine_msg package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

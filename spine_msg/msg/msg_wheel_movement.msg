@@ -1,0 +1,2 @@
+uint32 timestamp
+int16 distance

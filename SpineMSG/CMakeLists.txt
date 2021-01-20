@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(llc_messages)
+project(SpineMSG)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -21,10 +21,10 @@ find_package(catkin REQUIRED COMPONENTS
 # Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   Gps.msg
-   Imu.msg
-   Driver.msg
-   Health.msg
+   Gps_msg.msg
+   Imu_msg.msg
+   Driver_msg.msg
+   Health_msg.msg
  )
 
 ## Generate services in the 'srv' folder

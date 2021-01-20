@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(SpineMSG)
+project(spine_msg)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -21,10 +21,10 @@ find_package(catkin REQUIRED COMPONENTS
 # Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   GPS_msg.msg
-   IMU_msg.msg
-   Driver_msg.msg
-   Health_msg.msg
+   msg_gps.msg
+   msg_imu.msg
+   msg_driver.msg
+   msg_health.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -58,7 +58,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES SpineMSG
+#  LIBRARIES spine_msg
   CATKIN_DEPENDS std_msgs message_runtime
 )
 

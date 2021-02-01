@@ -7,3 +7,6 @@
 [submodule "ROS--common_msgs"]
 	path = ROS--common_msgs
 	url = https://github.com/autonomousrobotshq/ROS--common_msgs.git
+[submodule "ROS--geometry2"]
+	path = ROS--geometry2
+	url = https://github.com/autonomousrobotshq/ROS--geometry2.git

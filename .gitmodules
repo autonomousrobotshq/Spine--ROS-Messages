@@ -1,6 +1,9 @@
 [submodule "ros-keyboard"]
-	path = ros-keyboard
-	url = git@github.com:autonomousrobotshq/ros-keyboard.git
+	path = ROS--keyboard
+	url = git@github.com:autonomousrobotshq/ROS--keyboard.git
 [submodule "rosserial"]
-	path = rosserial
-	url = git@github.com:autonomousrobotshq/rosserial.git
+	path = ROS--rosserial
+	url = git@github.com:autonomousrobotshq/ROS--rosserial.git
+[submodule "ROS--common_msgs"]
+	path = ROS--common_msgs
+	url = https://github.com/autonomousrobotshq/ROS--common_msgs.git

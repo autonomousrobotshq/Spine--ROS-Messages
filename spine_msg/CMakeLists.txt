@@ -25,6 +25,7 @@ find_package(catkin REQUIRED COMPONENTS
    msg_imu.msg
    msg_driver.msg
    msg_health.msg
+   msg_sonar.msg
    msg_wheel_movement.msg
  )
 

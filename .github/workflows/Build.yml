@@ -20,5 +20,5 @@ jobs:
         path: './ROS-Docker'
         submodules: recursive
 
-    - name: Build a clean image for package
-      run: ./ROS-Docker/ros-docker.sh -r -c package ./ catkin_make
+    - name: Build a clean ROS environment and attempt compilation of workspace
+      run: ./ROS-Docker/ros-docker.sh -r -c workspace ./ catkin_make

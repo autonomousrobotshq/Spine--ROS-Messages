@@ -1,2 +1,2 @@
-float32[4] distance
+int32[4] distance
 
